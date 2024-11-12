@@ -4,7 +4,7 @@ const path=require('path');
 
 
 router.get('/more',(req,res)=>{
-res.sendFile(path.join(__dirname, 'articles', 'more.html'))
+    res.render('articles/more')
 })
 
 
